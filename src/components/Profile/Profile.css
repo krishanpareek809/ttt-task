@@ -1,0 +1,82 @@
+.section-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user-container-main{
+    display: flex;
+    margin-left: -32%;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-details>div>button{
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    width: 65px;
+    height: 35px;
+    background-color: aliceblue;
+}
+
+.user-image {
+    height: 285px;
+    width: 285px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: groove;
+    border-color: gray;
+    background-image: url(https://media.licdn.com/dms/image/D4D03AQEXdD5HHqzN3g/profile-displayphoto-shrink_400_400/0/1667373388482?e=1706140800&v=beta&t=VAjLpewvTSdIQ1dTzyeTw9m0fahrZ_Pf0fShu37bHdw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.user-info>div>h1{
+    letter-spacing: 2px;
+}
+
+.user-info>div>div{
+    padding: 10px;
+}
+
+.user-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -42%;
+    margin-top: 25px;
+}
+
+.user-container-2>div>a{
+    text-decoration: none;
+}
+
+.user-container-2>div>p{
+    margin-bottom: 6px;
+    margin-left: 48px;
+    letter-spacing: 1px;
+}
+
+.icons{
+    display: flex;
+    margin-top: 18px;
+}
+
+.icons>div{
+    margin-left: 35px;
+    font-size: larger;
+    font-weight: bolder;
+}

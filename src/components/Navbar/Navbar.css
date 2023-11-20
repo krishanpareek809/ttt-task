@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    background-color: black;
+    width: 100vw;
+    height: 85px;
+}
+
+.navbar-right {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    width: 75px;
+    height: 75px;
+    background-image: url(https://asset.brandfetch.io/idbHZbvDnq/idyVYzyWqK.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+
+}
+
+.navbar-straight-line {
+    margin-left: 10px;
+    background-color: yellow;
+    width: 2px;
+    height: 80px;
+}
+
+.btn {
+    background-color: yellow;
+    height: 46px;
+    width: 127px;
+    border-radius: 27px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.navbar-right-text {
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+
+.header-image {
+    background-image: url(https://w0.peakpx.com/wallpaper/907/724/HD-wallpaper-wonderful-view-of-a-fort-at-the-mouth-of-a-harbor-r-town-r-chair-fort-lights-harbor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 40vh;
+}

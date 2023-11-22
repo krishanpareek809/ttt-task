@@ -4,9 +4,11 @@
 
 Download and unzip the file or directly run the command `git clone https://github.com/krishanpareek809/ttt-task.git`
 
-In the project directory, you can run these two commands one after other to start the development server:
+In the project directory, you can run these three commands one after other to start the development server:
 
-### `npm install && npm run dev`
+### `npm install`
+
+### `npm install @mui/icons-material @mui/material @emotion/styled @emotion/react`  // for installing react MUI
 
 ### `npm start`
 
@@ -27,7 +29,9 @@ In Profile, I imported and used Material UI for different icons like Star, Thumb
 
 Next comes our main component that is Feed for posts, in this component I used useState hook for state management and to store data in variables. 
 
-API is used for post and feed data and async function is implemented for fetching the complete data using await keyword. 
+API is used for post and feed data and async function is implemented for fetching the complete data using await keyword.
+
+React Material UI is used for all the icons used in the project.
 
 Finally, useEffect hook is used to render the function on browser with all the functionalities such as like/unlike the post.
 
